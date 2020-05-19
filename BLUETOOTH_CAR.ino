@@ -1,10 +1,9 @@
 #include <AFMotor.h>
 
-//*** 1- Documentation
 //This program is used to control a robot car using a app that communicates with Arduino trough a bluetooth module
 
-//#include <AFMotor.h>
-//#define DC_MOTOR_PWM_RATE 200
+#define DC_MOTOR_PWM_RATE 200
+
 //initial motors pin
 AF_DCMotor motor1(1,200); 
 AF_DCMotor motor2(2,200); 
